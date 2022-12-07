@@ -45,12 +45,16 @@ nav {
 }
 
 nav .nav-section {
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   gap: 1rem;
   border-left: 1px solid var(--border-color);
   align-items: center;
   justify-content: center;
+}
+
+.year-style{
+  font-size: x-large;
 }
 
 #nav-mobile-section {
@@ -105,6 +109,22 @@ nav .nav-section {
 #nav-link-section {
   flex-basis: 50%;
   gap: 6rem;
+}
+
+#nav-link-section  #strong-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nav-link-section  #strong-text h4 {
+  font-size: x-large;
+  margin: 2px;
+}
+
+#nav-link-section  #strong-text h5 {
+  font-size: medium;
+  margin: 2px;
 }
 
 #nav-social-section {
