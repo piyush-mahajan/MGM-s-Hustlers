@@ -1,7 +1,7 @@
 # project_new
 If you wish to contribute, we highly recommend following the guidelines mentioned below. 
 
-**1.**  Fork [this](https://github.com/SauravMukherjee44/CodeIN-Community-Website) repository.
+**1.**  Fork [this](https://github.com/piyush-mahajan/project_new) repository.
 
 **2.**  Clone your forked copy of the project.
 
