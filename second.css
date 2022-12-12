@@ -59,6 +59,15 @@ nav .nav-section {
   font-size: x-large;
 }
 
+.underline{
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-minus{
+  margin: auto;
+}
+
 #nav-mobile-section {
   display: flex;
   flex-basis: calc(100% * (2 / 3));

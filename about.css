@@ -18,12 +18,16 @@ body {
   box-sizing: border-box;
 }
 
+i{
+  color: #fff;
+  scale: 200%;
+}
+
 .article-title-section{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  height: -webkit-fill-available;
+  flex-direction: row;
 }
 
 .article-title-section h2 {
@@ -33,12 +37,6 @@ body {
   font-size: xx-large;
   text-align: center;
 }
-
-/* hr{
-  color: aliceblue;
-  height: 2px;
-  width: 80%;
-} */
 
 hr {
   border: none;
@@ -126,6 +124,13 @@ hr {
   body{
     overflow:scroll;
   }
+
+  i{
+    color: #fff;
+    scale: 150%;
+    margin-top: 20px;
+  }
+
   .article-title-section{
     flex-direction: column;
     margin: 5px;
