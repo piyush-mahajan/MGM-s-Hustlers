@@ -67,6 +67,14 @@
   .fa-minus{
     margin: auto;
   }
+
+  .a-class{
+    font-size: xxx-large;
+  }
+
+  .a-class:hover{
+    font-size: xxx-large;
+  }
   
   #nav-mobile-section {
     display: flex;
