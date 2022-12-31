@@ -55,29 +55,29 @@ nav .nav-section {
   justify-content: center;
 }
 
-.year-style{
+.year-style {
   font-size: x-large;
 }
 
-.underline{
+.underline {
   display: flex;
   flex-direction: column;
 }
 
-.fa-minus{
+.fa-minus {
   margin: auto;
 }
 
-.a-class{
+.a-class {
   font-size: xxx-large;
 }
 
-.a-class:hover{
+.a-class:hover {
   font-size: xxx-large;
 }
 
 /* Preloader */
-.preloader{
+.preloader {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -88,24 +88,24 @@ nav .nav-section {
   z-index: 100;
 }
 
-#preloader-heading{
+#preloader-heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#preloader-heading > div{
-  display:flex;
+#preloader-heading > div {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.preloader-disappear{
+.preloader-disappear {
   animation: vanish 4s forwards;
 }
 @keyframes vanish {
-  100%{
+  100% {
     opacity: 0;
     visibility: hidden;
   }
@@ -166,18 +166,18 @@ nav .nav-section {
   gap: 6rem;
 }
 
-#nav-link-section  #strong-text {
+#nav-link-section #strong-text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#nav-link-section  #strong-text h4 {
+#nav-link-section #strong-text h4 {
   font-size: x-large;
   margin: 2px;
 }
 
-#nav-link-section  #strong-text h5 {
+#nav-link-section #strong-text h5 {
   font-size: medium;
   margin: 2px;
 }
@@ -247,9 +247,8 @@ main > article > .article-nav-section {
 }
 
 main > article:first-child > .article-image-section {
-  /* background-image: url("https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"); */
-  /* background-image: url("images/piyush1.png"); */
-  background-image: url("images/Piyush_Mahajan.png");
+  /* background-image: url("images/Piyush_Mahajan.png"); */
+  background-image: url("images/piyush_mahajan.jpg");
 }
 
 main > article:nth-child(2) > .article-image-section {
@@ -329,7 +328,6 @@ main > article > .article-nav-section > .article-nav-button:nth-child(2) {
 }
 
 @media (max-width: 1200px) {
-
   #nav-mobile-section {
     flex-basis: calc(100% * 0.75);
   }
