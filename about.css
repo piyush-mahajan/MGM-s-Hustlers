@@ -10,8 +10,8 @@ html {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 
 body {
@@ -27,12 +27,12 @@ body {
   box-sizing: border-box;
 }
 
-i{
+i {
   color: #fff;
   scale: 200%;
 }
 
-.article-title-section{
+.article-title-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -54,7 +54,7 @@ hr {
   box-shadow: 0 1px 4px 1px aliceblue;
 }
 
-.about-body{
+.about-body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,9 +63,9 @@ hr {
   height: 85%;
 }
 
-.img{
-  height: 300px;
-  width: 300px;
+.img img {
+  height: 420px;
+  width: 420px;
   margin: 5px;
   padding: 5px;
   background-color: rgb(24, 23, 23);
@@ -73,17 +73,17 @@ hr {
   border-radius: 10px;
 }
 
-.about-section-text{
+.about-section-text {
   color: whitesmoke;
   width: 60%;
   margin: 5px;
   padding: 5px;
   font-size: x-large;
-  font-family: 'Rubik',sans-serif;
+  font-family: "Rubik", sans-serif;
   /* font-family: "Font Awesome 6 Free"; */
 }
 
-.button-div{
+.button-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,13 +95,14 @@ hr {
   margin-bottom: 30px;
   appearance: none;
   background-color: white;
-  border: 2px solid #1A1A1A;
+  border: 2px solid #1a1a1a;
   border-radius: 15px;
   box-sizing: border-box;
   color: rgb(45, 43, 41);
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: x-large;
   font-weight: 600;
   line-height: normal;
@@ -112,7 +113,7 @@ hr {
   padding: 16px 24px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -125,7 +126,7 @@ hr {
 
 .button-28:hover {
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   box-shadow: white 0 8px 15px;
   transform: translateY(-2px);
 }
@@ -136,17 +137,17 @@ hr {
 }
 
 @media (max-width: 1024px) {
-  body{
-    overflow:scroll;
+  body {
+    overflow: scroll;
   }
 
-  i{
+  i {
     color: #fff;
     scale: 150%;
     margin-top: 20px;
   }
 
-  .article-title-section{
+  .article-title-section {
     flex-direction: column;
     margin: 5px;
     height: auto;
@@ -156,19 +157,19 @@ hr {
     font-size: x-large;
   }
 
-  .about-body{
+  .about-body {
     margin: 5px;
     padding: 5px;
     flex-direction: column;
     height: auto;
   }
 
-  .img{
+  .img img {
     height: 290px;
     width: 290px;
   }
 
-  .about-section-text{
+  .about-section-text {
     width: 80%;
     font-size: medium;
   }
@@ -179,13 +180,15 @@ hr {
     margin-bottom: 30px;
     appearance: none;
     background-color: white;
-    border: 2px solid #1A1A1A;
+    border: 2px solid #1a1a1a;
     border-radius: 15px;
     box-sizing: border-box;
     color: rgb(45, 43, 41);
     cursor: pointer;
     display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
     font-size: medium;
     font-weight: 600;
     line-height: normal;
@@ -196,7 +199,7 @@ hr {
     padding: 0px 0px;
     text-align: center;
     text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -205,7 +208,7 @@ hr {
 
   .button-28:hover {
     color: #fff;
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     box-shadow: white 0 2px 5px;
     transform: translateY(-6px);
   }

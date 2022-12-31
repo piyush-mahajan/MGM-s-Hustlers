@@ -74,6 +74,7 @@ nav .nav-section {
 
 .a-class:hover {
   font-size: xxx-large;
+  color: var(--highlight-color);
 }
 
 /* Preloader */
