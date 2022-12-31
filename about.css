@@ -5,13 +5,22 @@
   --yt-color: rgb(229, 57, 53);
 }
 
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 * {

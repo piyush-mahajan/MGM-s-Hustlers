@@ -68,6 +68,14 @@ nav .nav-section {
   margin: auto;
 }
 
+.a-class{
+  font-size: xxx-large;
+}
+
+.a-class:hover{
+  font-size: xxx-large;
+}
+
 /* Preloader */
 .preloader{
   width: 100%;
@@ -94,7 +102,7 @@ nav .nav-section {
 }
 
 .preloader-disappear{
-  animation: vanish 5s forwards;
+  animation: vanish 4s forwards;
 }
 @keyframes vanish {
   100%{
