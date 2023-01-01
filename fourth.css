@@ -69,12 +69,13 @@ nav .nav-section {
 }
 
 .a-class {
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
-.a-class:hover {
-  font-size: xxx-large;
-  color: var(--highlight-color);
+@media (min-width: 720px) {
+  .a-class {
+    font-size: xxx-large;
+  }
 }
 
 #nav-mobile-section {
