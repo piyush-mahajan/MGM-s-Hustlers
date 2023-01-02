@@ -254,7 +254,8 @@ main > article:first-child > .article-image-section {
 }
 
 main > article:nth-child(2) > .article-image-section {
-  background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+  /* background-image: url("https://www.canva.com/design/DAFWaCon1qo/b0uipCZzcYXVVEIpP8cW5A/view?utm_content=DAFWaCon1qo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"); */
+  background-image: url("images/pavan_kamthane.png");
 }
 
 main > article:nth-child(3) > .article-image-section {
