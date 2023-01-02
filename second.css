@@ -248,14 +248,14 @@ main > article > .article-nav-section {
   border-top: 1px solid var(--border-color);
 }
 
+
+/*  make changes here to add the image*/
 main > article:first-child > .article-image-section {
-  /* background-image: url("images/Piyush_Mahajan.png"); */
   background-image: url("images/piyush_mahajan.jpg");
 }
 
 main > article:nth-child(2) > .article-image-section {
-  /* background-image: url("https://www.canva.com/design/DAFWaCon1qo/b0uipCZzcYXVVEIpP8cW5A/view?utm_content=DAFWaCon1qo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"); */
-  background-image: url("images/pavan_kamthane.png");
+  background-image: url("images/pavan_kamthane1.png");
 }
 
 main > article:nth-child(3) > .article-image-section {
