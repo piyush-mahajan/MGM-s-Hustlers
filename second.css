@@ -258,7 +258,7 @@ main > article:nth-child(2) > .article-image-section {
 }
 
 main > article:nth-child(3) > .article-image-section {
-  background-image: url("https://images.unsplash.com/photo-1660580554695-d2ca5008f1f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+  background-image: url("images/dipak02.png");
 }
 
 main > article:nth-child(4) > .article-image-section {
