@@ -104,7 +104,7 @@ nav .nav-section {
 }
 
 .preloader-disappear {
-  animation: vanish 4s forwards;
+  animation: vanish 2s forwards;
 }
 @keyframes vanish {
   100% {
