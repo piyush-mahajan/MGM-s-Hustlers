@@ -104,7 +104,7 @@ nav .nav-section {
 }
 
 .preloader-disappear {
-  animation: vanish 4s forwards;
+  animation: vanish 2s forwards;
 }
 @keyframes vanish {
   100% {
@@ -248,17 +248,18 @@ main > article > .article-nav-section {
   border-top: 1px solid var(--border-color);
 }
 
+
+/*  make changes here to add the image*/
 main > article:first-child > .article-image-section {
-  /* background-image: url("images/Piyush_Mahajan.png"); */
   background-image: url("images/piyush_mahajan.jpg");
 }
 
 main > article:nth-child(2) > .article-image-section {
-  background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+  background-image: url("images/pavan_kamthane1.png");
 }
 
 main > article:nth-child(3) > .article-image-section {
-  background-image: url("https://images.unsplash.com/photo-1660580554695-d2ca5008f1f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+  background-image: url("images/dipak04.png");
 }
 
 main > article:nth-child(4) > .article-image-section {
